@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<title> Color Changing App By Avanti</title>
+		<style>
+			* {font-size:50px; }
+		</style>
+	
+	</head>
+	<body>
+	<center>
+		<h1> Holi Hain!!! </h1>
+		<br/><br/>
+		<script>
+			function cc()
+			{
+			
+				let colors = ["red", "green", "blue", "pink", "yellow"];
+				let r = parseInt(Math.random() * colors.length);
+				document.body.style.backgroundColor = colors[r];
+			}
+			cc();
+			setInterval(cc, 3000); //3000 ms = 3s 
+		</script>
+	</center>
+	</body>
+
+</html>
